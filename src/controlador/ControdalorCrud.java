@@ -104,12 +104,12 @@ public class ControdalorCrud implements ActionListener,KeyListener{
             int numFS = vistaCRUD.jtDatos.getSelectedColumnCount();
             if(filaEditar>=0 && numFS == 1){
                 vistaCRUD.txtDni.setText(String.valueOf(vistaCRUD.jtDatos.getValueAt(filaEditar,0)));
-                vistaCRUD.btnGEdit.setEnabled(true);
                 vistaCRUD.txtDni.setEditable(false);
                 vistaCRUD.btnRegistrar.setEnabled(false);
                 vistaCRUD.btnEditar.setEnabled(false);
                 vistaCRUD.btnEliminar.setEnabled(false);
                 vistaCRUD.txtBusqueda.setEnabled(false);
+                vistaCRUD.btnGEdit.setEnabled(true);
             }else{
                 JOptionPane.showMessageDialog(null, "Debes seleccionar al menos una fila.");
             }
