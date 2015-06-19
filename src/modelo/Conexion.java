@@ -6,7 +6,7 @@
 package modelo;
 import java.sql.*;
 /**
- *
+ * 
  * @author andres
  */
 public class Conexion {

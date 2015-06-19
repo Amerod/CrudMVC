@@ -7,7 +7,7 @@ package modelo;
 import java.sql.*;
 import java.util.ArrayList;
 /**
- *
+ * 
  * @author andres
  */
 public class PersonaDAO {
