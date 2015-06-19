@@ -17,7 +17,7 @@ public class Conexion {
                 Connection con = null;
         try{
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            con = DriverManager.getConnection("jdbc:mysql://localhost/db_persona","root","andresnegro1");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/db_persona","root","123456");
         }
         catch(Exception e){
         
