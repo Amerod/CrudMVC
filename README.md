@@ -1,2 +1,2 @@
 # CrudMVC
-Proyecto para importar csv a base de datos.
+Proyecto para importar csv a base de datos mysql.
